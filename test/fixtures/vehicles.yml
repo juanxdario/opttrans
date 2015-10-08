@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  plate: MyString
+  available: false
+  photo: MyString
+  transporter_id: 
+
+two:
+  type: 
+  plate: MyString
+  available: false
+  photo: MyString
+  transporter_id: 

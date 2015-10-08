@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  weight: 1
+  large: 1
+  width: 1
+  height: 1
+  delicate: false
+  urgent: false
+  max_date: MyString
+  customer_id: 
+  rem_status_id: 
+  service_id: 
+  del_address_id: 
+
+two:
+  weight: 1
+  large: 1
+  width: 1
+  height: 1
+  delicate: false
+  urgent: false
+  max_date: MyString
+  customer_id: 
+  rem_status_id: 
+  service_id: 
+  del_address_id: 

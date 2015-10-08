@@ -1,0 +1,12 @@
+<%= form_for @service, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
+  <%= f.text_field :title %>
+  <%= f.text_area :body, size: "60x12" %>
+  <%= f.submit "Create" %>
+<% end %>
+
+<%= f.select(
+  :user, 
+  User.not_god.map{|u| [u.to_s, u.id]}, 
+  {}, 
+  { id: 'user-select' } 
+ ) %>

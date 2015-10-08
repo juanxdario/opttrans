@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  coddpto: 1
+  codmun: 1
+  dpto: MyString
+  mun: MyString
+
+two:
+  coddpto: 1
+  codmun: 1
+  dpto: MyString
+  mun: MyString
