@@ -14,6 +14,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-//= require selectize
+
+$(document).ready(function(){
+   $('#select-gear').selectize({
+            sortField: 'text'
+        });
+});
 
 

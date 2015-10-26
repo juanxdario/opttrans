@@ -1,31 +1,7 @@
 <header>
-  <table>
-    <thead>
-      <tr>
-        <th>Titulo</th>
-        <th>Contenido</th>
-        <th colspan="3"></th>
-      </tr>
-    </thead>
-
-    <tbody>
-      
-      
-      <select>
-      <%grouped_collection_select(:city, :state_id, @states, :cities, "dpto", :id, "mun")%>
-      </select>
-
-      <script>
-        $('#select-gear').selectize({
-            sortField: 'text'
-        });
-      </script>
-  
-    </tbody>
-  </table>
+  <div id="jumbotron">
+    <%=grouped_collection_select(:city, :state_id, @states, :cities, "dpto", :id, "mun", { :selected => [ 'BOGOTÁ D.C.' ]}, {:id => "select-gear" })%>
+  </div>
 </header>
 <section>
-
-<%= render 'shared/ex_opt_selectize' %>
-
 </section>
